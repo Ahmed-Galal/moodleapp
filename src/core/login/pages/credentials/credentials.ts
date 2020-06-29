@@ -64,7 +64,7 @@ export class CoreLoginCredentialsPage {
             private translate: TranslateService,
             private eventsProvider: CoreEventsProvider) {
 
-        this.siteUrl = navParams.get('siteUrl');
+        this.siteUrl = "https://courses.ifta-learning.net" || navParams.get('siteUrl'); // ahmed galal
         this.siteName = navParams.get('siteName') || null;
         this.logoUrl = navParams.get('logoUrl') || null;
         this.siteConfig = navParams.get('siteConfig');
