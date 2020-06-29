@@ -34,7 +34,7 @@ import { CoreLoginSitesPage } from '@core/login/pages/sites/sites';
 export class MoodleMobileApp implements OnInit {
     // Use page name (string) because the page is lazy loaded (Ionic feature). That way we can load pages without importing them.
     // The downside is that each page needs to implement a ngModule.
-    //rootPage: any = 'CoreLoginInitPage';
+    // rootPage: any = 'CoreLoginInitPage';
     rootPage: any = 'CoreLoginCredentialsPage';
     protected logger;
     protected lastUrls = {};
