@@ -1,0 +1,43 @@
+{
+  "appId": "com.moodle.moodlemobile",
+  "appName": "Moodle",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "permissions": "none",
+      "orientation": "default",
+      "target-device": "universal",
+      "fullscreen": "false",
+      "stay-in-webview": "false",
+      "webviewbounce": "false",
+      "UIWebViewBounce": "false",
+      "DisallowOverscroll": "true",
+      "prerendered-icon": "true",
+      "AppendUserAgent": "MoodleMobile",
+      "BackupWebStorage": "none",
+      "ScrollEnabled": "false",
+      "KeyboardDisplayRequiresUserAction": "false",
+      "AllowInlineMediaPlayback": "true",
+      "LoadUrlTimeoutValue": "60000",
+      "load-url-timeout": "60000",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "15000",
+      "SplashMaintainAspectRatio": "true",
+      "SplashShowOnlyFirstTime": "false",
+      "android-minSdkVersion": "19",
+      "android-targetSdkVersion": "29",
+      "AndroidPersistentFileLocation": "Compatibility",
+      "CustomURLSchemePluginClearsAndroidIntent": "true",
+      "iosPersistentFileLocation": "Compatibility",
+      "iosScheme": "moodleappfs",
+      "WKWebViewOnly": "true"
+    }
+  }
+}
