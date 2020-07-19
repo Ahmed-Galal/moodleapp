@@ -1,0 +1,7 @@
+sudo gem install -n /usr/local/bin cocoapods:1.1.1
+sudo gem uninstall -n /usr/local/bin cocoapods # uninstall 1.2.0.beta.1
+pod --version # 1.1.1
+rm -rf platforms plugins
+cordova platform add ios
+
+ionic cordova build ios
