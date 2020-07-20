@@ -5,3 +5,15 @@ rm -rf platforms plugins
 cordova platform add ios
 
 ionic cordova build ios
+
+
+
+============
+npx cap add ios
+npx cap add android
+npx cap copy   ===> must be run after every = ionic build
+npx cap open android
+npx cap open ios
+
+ionic serve
+===================
