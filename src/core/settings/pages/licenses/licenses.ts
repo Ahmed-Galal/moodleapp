@@ -15,7 +15,7 @@
 import { Component } from '@angular/core';
 import { IonicPage } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 
 /**
  * Defines license info

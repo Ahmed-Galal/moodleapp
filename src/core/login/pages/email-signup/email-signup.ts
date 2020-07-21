@@ -24,7 +24,7 @@ import { CoreWSProvider } from '@providers/ws';
 import { CoreLoginHelperProvider } from '../../providers/helper';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 import { CoreUserProfileFieldDelegate } from '@core/user/providers/user-profile-field-delegate';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 
 /**
  * Page to signup using email.

@@ -25,7 +25,7 @@ import { CoreUrlUtilsProvider } from './utils/url';
 import { CoreUtilsProvider } from './utils/utils';
 import { CoreWSProvider } from './ws';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { CoreSite, CoreSiteWSPreSets } from '@classes/site';
 import { SQLiteDB, SQLiteDBTableSchema } from '@classes/sqlitedb';
 import { Md5 } from 'ts-md5/dist/md5';

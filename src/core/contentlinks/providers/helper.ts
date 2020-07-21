@@ -27,7 +27,7 @@ import { CoreUtilsProvider } from '@providers/utils/utils';
 import { CoreLoginHelperProvider } from '@core/login/providers/helper';
 import { CoreContentLinksDelegate, CoreContentLinksAction } from './delegate';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { CoreSitePluginsProvider } from '@core/siteplugins/providers/siteplugins';
 import { CoreSite } from '@classes/site';
 import { CoreMainMenuProvider } from '@core/mainmenu/providers/mainmenu';

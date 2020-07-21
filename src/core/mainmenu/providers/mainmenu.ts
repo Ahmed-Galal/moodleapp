@@ -18,7 +18,7 @@ import { CoreApp } from '@providers/app';
 import { CoreLangProvider } from '@providers/lang';
 import { CoreSitesProvider } from '@providers/sites';
 import { CoreUtilsProvider } from '@providers/utils/utils';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { CoreMainMenuDelegate, CoreMainMenuHandlerToDisplay } from './delegate';
 
 /**

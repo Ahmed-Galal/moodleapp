@@ -27,7 +27,7 @@ import { CoreTimeUtilsProvider } from '@providers/utils/time';
 import { CoreUrlUtilsProvider } from '@providers/utils/url';
 import { CoreUtilsProvider, PromiseDefer } from '@providers/utils/utils';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { Md5 } from 'ts-md5/dist/md5';
 import { InAppBrowserObject } from '@ionic-native/in-app-browser';
 

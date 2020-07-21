@@ -20,7 +20,7 @@ import { CoreAppProvider } from './app';
 import { CoreLoggerProvider } from './logger';
 import { CoreMimetypeUtilsProvider } from './utils/mimetype';
 import { CoreTextUtilsProvider } from './utils/text';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { Zip } from '@ionic-native/zip';
 import { makeSingleton } from '@singletons/core.singletons';
 

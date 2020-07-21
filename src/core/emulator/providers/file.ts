@@ -17,7 +17,7 @@ import { File, Entry, DirectoryEntry, FileEntry, FileError, IWriteOptions } from
 import { CoreAppProvider } from '@providers/app';
 import { CoreMimetypeUtilsProvider } from '@providers/utils/mimetype';
 import { CoreTextUtilsProvider } from '@providers/utils/text';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 import { FileEntryMock, DirectoryEntryMock } from '../classes/filesystem';
 
 /**

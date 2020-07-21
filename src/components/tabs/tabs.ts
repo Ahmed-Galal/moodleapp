@@ -24,7 +24,7 @@ import { CoreAppProvider } from '@providers/app';
 import { CoreTabComponent } from './tab';
 import { CoreConfigProvider } from '@providers/config';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from 'configconstants';
+import { CoreConfigConstants } from '@providers/configconstants';
 
 /**
  * This component displays some tabs that usually share data between them.
