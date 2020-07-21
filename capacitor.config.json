@@ -1,5 +1,5 @@
 {
-  "appId": "com.moodle.moodlemobile",
+  "appId": "com.moodle.ostaz",
   "appName": "Moodle",
   "bundledWebRuntime": false,
   "npmClient": "npm",

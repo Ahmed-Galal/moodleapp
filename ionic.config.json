@@ -1,5 +1,5 @@
 {
-  "name": "moodlemobile",
+  "name": "ostaz",
   "integrations": {
     "cordova": {},
     "gulp": {},
@@ -7,5 +7,5 @@
   },
   "type": "ionic-angular",
   "watchPatterns": [],
-  "id": "com.moodle.moodlemobile"
+  "id": "16b16d8d"
 }
