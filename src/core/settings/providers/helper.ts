@@ -26,7 +26,7 @@ import { CoreConfigProvider } from '@providers/config';
 import { CoreFilterProvider } from '@core/filter/providers/filter';
 import { CoreDomUtilsProvider } from '@providers/utils/dom';
 import { CoreCourseProvider } from '@core/course/providers/course';
-import { CoreConfigConstants } from '../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { TranslateService } from '@ngx-translate/core';
 
 /**

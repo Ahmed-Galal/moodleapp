@@ -22,7 +22,7 @@ import { CoreDbProvider } from './db';
 import { CoreLoggerProvider } from './logger';
 import { CoreEventsProvider } from './events';
 import { SQLiteDB, SQLiteDBTableSchema } from '@classes/sqlitedb';
-import { CoreConfigConstants } from '../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { makeSingleton } from '@singletons/core.singletons';
 
 /**

@@ -22,7 +22,7 @@ import { CoreSite, CoreSiteWSPreSets } from '@classes/site';
 import { CoreSitesProvider } from '@providers/sites';
 import { CoreTextUtilsProvider } from '@providers/utils/text';
 import { CoreUtilsProvider, PromiseDefer } from '@providers/utils/utils';
-import { CoreConfigConstants } from '../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreCoursesProvider } from '@core/courses/providers/courses';
 import { CoreEventsProvider } from '@providers/events';
 

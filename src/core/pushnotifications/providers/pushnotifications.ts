@@ -29,7 +29,7 @@ import { CoreUtilsProvider } from '@providers/utils/utils';
 import { CoreTextUtilsProvider } from '@providers/utils/text';
 import { CoreConfigProvider } from '@providers/config';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from '../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { ILocalNotification } from '@ionic-native/local-notifications';
 import { SQLiteDB } from '@classes/sqlitedb';
 import { CoreSite } from '@classes/site';

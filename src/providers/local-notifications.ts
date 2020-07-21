@@ -25,7 +25,7 @@ import { CoreTextUtilsProvider } from './utils/text';
 import { CoreUtilsProvider } from './utils/utils';
 import { SQLiteDB } from '@classes/sqlitedb';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from '../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { Subject, Subscription } from 'rxjs';
 import { makeSingleton } from '@singletons/core.singletons';
 

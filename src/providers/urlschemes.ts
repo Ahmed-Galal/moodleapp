@@ -26,7 +26,7 @@ import { CoreLoginHelperProvider, CoreLoginSSOData } from '@core/login/providers
 import { CoreContentLinksHelperProvider } from '@core/contentlinks/providers/helper';
 import { CoreContentLinksDelegate } from '@core/contentlinks/providers/delegate';
 import { CoreSitePluginsProvider } from '@core/siteplugins/providers/siteplugins';
-import { CoreConfigConstants } from '../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreConstants } from '@core/constants';
 import { makeSingleton } from '@singletons/core.singletons';
 

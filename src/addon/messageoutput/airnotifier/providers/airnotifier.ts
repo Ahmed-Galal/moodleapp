@@ -15,7 +15,7 @@
 import { Injectable } from '@angular/core';
 import { CoreLoggerProvider } from '@providers/logger';
 import { CoreSitesProvider } from '@providers/sites';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreSite } from '@classes/site';
 import { CoreWSExternalWarning } from '@providers/ws';
 

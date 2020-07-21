@@ -16,7 +16,7 @@ import { Injectable } from '@angular/core';
 import { CoreConfigProvider } from './config';
 import { CoreInitHandler, CoreInitDelegate } from './init';
 import { CoreLoggerProvider } from './logger';
-import { CoreConfigConstants } from '../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreH5P } from '@core/h5p/providers/h5p';
 import { makeSingleton } from '@singletons/core.singletons';
 

@@ -19,7 +19,7 @@ import { CoreTextUtilsProvider } from '@providers/utils/text';
 import { CoreUtilsProvider } from '@providers/utils/utils';
 import { SQLiteDB } from '@classes/sqlitedb';
 import { CoreConstants } from '@core/constants';
-import { CoreConfigConstants } from '../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import * as moment from 'moment';
 import { Subject, Observable } from 'rxjs';
 

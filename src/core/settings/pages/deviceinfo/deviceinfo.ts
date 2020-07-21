@@ -24,7 +24,7 @@ import { CoreLangProvider } from '@providers/lang';
 import { CoreUtilsProvider } from '@providers/utils/utils';
 import { CoreLocalNotificationsProvider } from '@providers/local-notifications';
 import { CoreSitesProvider } from '@providers/sites';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CorePushNotificationsProvider } from '@core/pushnotifications/providers/pushnotifications';
 
 /**

@@ -24,7 +24,7 @@ import { CoreTextUtilsProvider } from '@providers/utils/text';
 import { CoreUrlUtilsProvider } from '@providers/utils/url';
 import { CoreUtilsProvider } from '@providers/utils/utils';
 import { CoreConfig } from '@providers/config';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreLoginHelperProvider } from '../../providers/helper';
 import { FormBuilder, FormGroup, ValidatorFn, AbstractControl } from '@angular/forms';
 import { CoreUrl } from '@singletons/url';

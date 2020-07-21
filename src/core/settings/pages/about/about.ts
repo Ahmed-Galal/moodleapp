@@ -17,7 +17,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 import { CoreAppProvider } from '@providers/app';
 import { CoreSitesProvider } from '@providers/sites';
 import { CoreSplitViewComponent } from '@components/split-view/split-view';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 
 /**
  * Page that displays the about settings.

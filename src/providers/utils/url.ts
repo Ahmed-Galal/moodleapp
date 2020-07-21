@@ -16,7 +16,7 @@ import { Injectable } from '@angular/core';
 import { CoreLangProvider } from '../lang';
 import { CoreTextUtilsProvider } from './text';
 import { makeSingleton } from '@singletons/core.singletons';
-import { CoreConfigConstants } from '../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreUrl } from '@singletons/url';
 
 /*

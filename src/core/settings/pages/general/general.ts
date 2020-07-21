@@ -22,7 +22,7 @@ import { CoreLangProvider } from '@providers/lang';
 import { CoreDomUtilsProvider } from '@providers/utils/dom';
 import { CoreLocalNotificationsProvider } from '@providers/local-notifications';
 import { CorePushNotificationsProvider } from '@core/pushnotifications/providers/pushnotifications';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreConfigConstants } from 'configconstants';
 import { CoreSettingsHelper } from '../../providers/helper';
 
 /**
