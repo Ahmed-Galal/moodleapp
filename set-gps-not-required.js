@@ -46,7 +46,7 @@ var fs = require('fs'),
 
 // var platformRoot = path.join(context.opts.projectRoot, 'platforms/android');
 // var manifestFile = path.join(platformRoot, 'app/src/main/AndroidManifest.xml');
-var manifestFile = 'android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml';
+var manifestFile = '/builds/Ahmed-Galal/moodleapp/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml';
 
 
 // console.log("Platform ROOT: " + platformRoot);
