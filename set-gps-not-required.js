@@ -6,7 +6,7 @@ var fs = require('fs'),
 
 var appDir = path.dirname(require.main.filename);
 
-var manifestFile = path.join(appDir, 'capacitor-cordova-android-plugins/src/main/AndroidManifest.xml');
+var manifestFile = path.join(appDir, 'android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml');
 
 console.log("APP ROOT: " + appDir);
 console.log("Manifest file: " + manifestFile);
