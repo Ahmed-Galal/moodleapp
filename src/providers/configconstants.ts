@@ -14,7 +14,7 @@
 
 // tslint:disable: variable-name
 export class CoreConfigConstants {
-    static app_id = 'com.moodle.ostaz';
+    static app_id = 'com.app.ostaz';
     static appname = 'Ostaz Mobile';
     static desktopappname = 'Ostaz Desktop';
     static versioncode = 3900;
@@ -69,7 +69,7 @@ export class CoreConfigConstants {
     static forceColorScheme = '';
     static ioswebviewscheme = 'moodleappfs';
     static appstores: any = {
-        android: 'com.moodle.ostaz',
+        android: 'com.app.ostaz',
         ios: 'id633359593',
         windows: 'moodle-desktop/9p9bwvhdc8c8',
         mac: 'id1255924440',

@@ -1,5 +1,5 @@
 {
-    "app_id": "com.moodle.ostaz",
+    "app_id": "com.app.ostaz",
     "appname": "Ostaz Mobile",
     "desktopappname": "Ostaz Desktop",
     "versioncode": 3900,
@@ -54,7 +54,7 @@
     "forceColorScheme": "",
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.ostaz",
+        "android": "com.app.ostaz",
         "ios": "id633359593",
         "windows": "moodle-desktop\/9p9bwvhdc8c8",
         "mac": "id1255924440",
