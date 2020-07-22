@@ -143,7 +143,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "2.2.0",
-    "@ionic/app-scripts": "3.2.4",
+    "@ionic/app-scripts": "^3.2.3",
     "@ionic/cli": "^6.9.3",
     "@types/cordova": "0.0.34",
     "@types/cordova-plugin-file-transfer": "0.0.3",
