@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Ostaz</string>
-    <string name="title_activity_main">Ostaz</string>
+    <string name="app_name">Moodle</string>
+    <string name="title_activity_main">Moodle</string>
     <string name="package_name">com.app.ostaz</string>
     <string name="custom_url_scheme">com.app.ostaz</string>
 </resources>
