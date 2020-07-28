@@ -113,3 +113,8 @@ ion-app.app-root page-core-login-site {
     color: var(--ion-color-primary-contrast);
   }
 }
+
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-md ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-md .tab-slide[aria-selected=true] .tab-button-icon {
+    color: #00cfff !important;
+}

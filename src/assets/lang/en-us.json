@@ -30,5 +30,10 @@
     "core.strftimerecentfull": "%a, %b %d, %Y, %I:%M %p",
     "core.strftimetime": "%I:%M %p",
     "core.thisdirection": "ltr",
-    "core.user.lastname": "Last name"
+    "core.user.lastname": "Last name",
+    "core.login.newaccount": "I don't have an account",
+     "core.login.forgetpassword": "Forget Password",
+    "core.login.signin": "Sign In",
+    "core.login.signup": "Sign Up",
+    "core.login.email": "Email"
 }

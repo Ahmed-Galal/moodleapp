@@ -55,12 +55,12 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = false;
     static privacypolicy = 'https://moodle.net/moodle-app-privacy/';
-    static notificoncolor = '#606060';
+    static notificoncolor = '#00cfff';
     static statusbarbg = false;
     static statusbarlighttext = false;
     static statusbarbgios = '#606060';
     static statusbarlighttextios = true;
-    static statusbarbgandroid = '#df7310';
+    static statusbarbgandroid = '#606060';
     static statusbarlighttextandroid = true;
     static statusbarbgremotetheme = '#000000';
     static statusbarlighttextremotetheme = true;
