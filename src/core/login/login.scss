@@ -16,93 +16,100 @@ $core-dark-login-loading-color: $core-dark-text-color !default;
 ion-app.app-root page-core-login-credentials,
 ion-app.app-root page-core-login-reconnect,
 ion-app.app-root page-core-login-site {
-    .scroll-content {
-        background: $core-login-page-background-color;
-        color: $core-login-page-text-color;
-
-        @include darkmode() {
-            background: $core-dark-login-page-background-color;
-            color: $core-dark-login-page-text-color;
-        }
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    .core-sitename, .core-siteurl {
-        @if $core-fixed-url { display: none; }
-    }
-
-    .core-sitename + .core-siteurl  {
-        margin-top: 0;
-    }
-
-    .core-sitename {
-        font-size: 1.8rem;
-    }
-
-    @if $core-login-button-outline {
-        .button-md.button-default-md, .button-ios.button-default-ios {
-            @extend .button-md-light;
-        }
-    }
-
-    @if $core-login-loading-color {
-        .core-loading-container {
-            color: $core-login-loading-color;
-
-            .spinner circle, .spinner line {
-                stroke: $core-login-loading-color;
-            }
-        }
-    }
-
-    @if $core-dark-login-button-outline {
-        .button-md.button-default-md, .button-ios.button-default-ios {
-            @extend .button-md-light;
-        }
-    }
+  .scroll-content {
+    background: $core-login-page-background-color;
+    color: $core-login-page-text-color;
 
     @include darkmode() {
-        .core-loading-container {
-            color: $core-dark-login-loading-color;
-
-            .spinner circle, .spinner line {
-                stroke: $core-dark-login-loading-color;
-            }
-        }
+      background: $core-dark-login-page-background-color;
+      color: $core-dark-login-page-text-color;
     }
+  }
 
-    .item-input {
-        margin-bottom: 20px;
+  img {
+    max-width: 100%;
+  }
+
+  .core-sitename, .core-siteurl {
+    @if $core-fixed-url {
+      display: none;
     }
+  }
 
-    ion-list.core-login-forgotten-password {
-        margin-top: 0;
-        margin-bottom: 0;
+  .core-sitename + .core-siteurl {
+    margin-top: 0;
+  }
 
-        a.item {
-            background: transparent;
-            text-decoration: underline;
+  .core-sitename {
+    font-size: 1.8rem;
+  }
 
-            @include darkmode() {
-                background: transparent;
-            }
-        }
+  @if $core-login-button-outline {
+    .button-md.button-default-md, .button-ios.button-default-ios {
+      @extend .button-md-light;
     }
+  }
 
-    .core-login-site-logo {
-        width: 90%;
-        max-width: 300px;
-        margin: 5px auto;
+  @if $core-login-loading-color {
+    .core-loading-container {
+      color: $core-login-loading-color;
+
+      .spinner circle, .spinner line {
+        stroke: $core-login-loading-color;
+      }
     }
+  }
 
-    .item.item-block {
+  @if $core-dark-login-button-outline {
+    .button-md.button-default-md, .button-ios.button-default-ios {
+      @extend .button-md-light;
+    }
+  }
+
+  @include darkmode() {
+    .core-loading-container {
+      color: $core-dark-login-loading-color;
+
+      .spinner circle, .spinner line {
+        stroke: $core-dark-login-loading-color;
+      }
+    }
+  }
+
+  .item-input {
+    margin-bottom: 20px;
+  }
+
+  ion-list.core-login-forgotten-password {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    a.item {
+      background: transparent;
+      text-decoration: underline;
+
+      @include darkmode() {
         background: transparent;
-
-        @include darkmode() {
-            background: transparent;
-        }
+      }
     }
+  }
+
+  .core-login-site-logo {
+    width: 90%;
+    max-width: 300px;
+    margin: 5px auto;
+  }
+
+  .item.item-block {
+    background: transparent;
+
+    @include darkmode() {
+      background: transparent;
+    }
+  }
+
+  .item-has-focus.label-floating.sc-ion-label-md-h,
+  .item-has-placeholder .label-floating.sc-ion-label-md-h {
+    color: var(--ion-color-primary-contrast);
+  }
 }
